@@ -10,5 +10,11 @@ public class MemberVO {
 	public void setId(String id) {
 		this.id = id;
 	}
+
+	@Override
+	public String toString() {
+		return "MemberVO [id=" + id + "]";
+	}
+	
 	
 }
